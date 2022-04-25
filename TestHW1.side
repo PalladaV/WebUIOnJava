@@ -1,0 +1,161 @@
+{
+  "id": "1afba331-9f1b-4825-bd01-8b9711872eec",
+  "version": "2.0",
+  "name": "Test",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "cf095be1-5b76-4aaf-8679-c250091c3846",
+    "name": "test1",
+    "commands": [{
+      "id": "1d3861c0-604d-47e9-87db-ff7a07eac4eb",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "053d91f5-7047-4f3f-905f-497ef58cfdc2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ebabf2d0-ebd5-4abd-b2ca-02244bd3eddf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//*[@id=\"block_top_menu\"]/ul/li[2]/a",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c616a9a-dabb-4c3a-9aa7-869430f97924",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submenu-container > .sfHover > a",
+      "targets": [
+        ["css=.submenu-container > .sfHover > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Evening Dresses')])[2]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=10&controller=category'])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b01c59c-119f-41a7-b8ec-3b7184370751",
+      "comment": "",
+      "command": "click",
+      "target": "id=layered_id_attribute_group_2",
+      "targets": [
+        ["id=layered_id_attribute_group_2", "id"],
+        ["name=layered_id_attribute_group_2", "name"],
+        ["css=#layered_id_attribute_group_2", "css:finder"],
+        ["xpath=//input[@id='layered_id_attribute_group_2']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-layered_id_attribute_group_2']/span/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "899094fa-b4be-4394-9776-3e95e190538e",
+      "comment": "",
+      "command": "click",
+      "target": "id=layered_id_attribute_group_7",
+      "targets": [
+        ["id=layered_id_attribute_group_7", "id"],
+        ["name=layered_id_attribute_group_7", "name"],
+        ["css=#layered_id_attribute_group_7", "css:finder"],
+        ["xpath=//input[@id='layered_id_attribute_group_7']", "xpath:attributes"],
+        ["xpath=//ul[@id='ul_layered_id_attribute_group_3']/li/input", "xpath:idRelative"],
+        ["xpath=//li/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4ead5e5-88e3-4910-be2b-f5627f06f1fd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=//*[@id=\"center_column\"]/ul/li/div/div[1]/div/a[1]/img",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5eee419d-d4e7-4930-911d-5d4e04573ee4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ajax_add_to_cart_button > span",
+      "targets": [
+        ["css=.ajax_add_to_cart_button > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/ul/li/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e02a8848-8408-4b53-9542-f902a34ac4c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-medium:nth-child(2) > span",
+      "targets": [
+        ["css=.button-medium:nth-child(2) > span", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Proceed to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "710bf5ff-5954-40a3-aaab-0b4506978854",
+      "comment": "",
+      "command": "click",
+      "target": "css=.standard-checkout > span",
+      "targets": [
+        ["css=.standard-checkout > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf291570-d89a-4302-beb0-121fad132d85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(4) > span",
+      "targets": [
+        ["css=.button:nth-child(4) > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/form/p/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f2aa4706-d20f-46d6-be98-229738df2abd",
+      "comment": "",
+      "command": "click",
+      "target": "id=cgv",
+      "targets": [
+        ["id=cgv", "id"],
+        ["name=cgv", "name"],
+        ["css=#cgv", "css:finder"],
+        ["xpath=//input[@id='cgv']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-cgv']/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea81d689-f7f1-4e5e-a818-7040c2ec1e87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.standard-checkout > span",
+      "targets": [
+        ["css=.standard-checkout > span", "css:finder"],
+        ["xpath=//form[@id='form']/p/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ee0df931-7c42-4a3a-a20d-c2665108118b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cf095be1-5b76-4aaf-8679-c250091c3846"]
+  }],
+  "urls": ["http://automationpractice.com/"],
+  "plugins": []
+}
