@@ -1,4 +1,4 @@
-package com.geekbrains.HW3;
+package com.geekbrains;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
