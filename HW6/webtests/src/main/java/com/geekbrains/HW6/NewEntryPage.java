@@ -33,5 +33,9 @@ public class NewEntryPage extends BaseView {
         rewriteButton.click();
         return new MyDiaryPage(driver);
     }
+
+    public void setMyPost(List<WebElement> myPost) {
+        this.myPost = myPost;
+    }
 }
 
