@@ -13,7 +13,7 @@ public class LoginPage extends BaseView {
         super(driver);
     }
 
-    private final static String RECAPTCHA_XPATH_LOCATOR = "'//iframe[@title='reCAPTCHA']";
+    private final static String RECAPTCHA_XPATH_LOCATOR = "//iframe[@title='reCAPTCHA']";
 
     @FindBy(xpath = "//a[.='Вход']")
     public WebElement entryButton;
